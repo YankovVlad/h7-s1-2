@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tap } from './Tap.js'
+import { Tap } from './S1-Tap.js'
 
 export const App = () => {
 
@@ -18,7 +18,7 @@ export const App = () => {
     <div className="wrap">
       <Tap label="Console button" onClick={inConsole}/>
       <Tap label="Alert button" onClick={inAlert}/>
-      <Tap label ="Label to console" onClick={() => inConsoleWithArg('This is third button')}/>
+      <Tap label ="Argument to console" onClick={() => inConsoleWithArg('This is third button')}/>
     </div>
     
   )
