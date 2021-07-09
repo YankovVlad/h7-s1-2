@@ -27,38 +27,3 @@ button {
   font-weight: 700;
   
 }
-
-.pizza__body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.pizza__img {
-  position: relative;
-  width: 300px;
-  height: 300px;
-
-  border-radius: 50%;
-  border: 10px solid #F48E0E;
-  background-color: #FEC746;
-}
-
-.pizza__ingredient{
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-
-  background: url('/src/svg/SwissCheeseHeart.svg');
-}
-
-.pizza__editor {
-  width: 300px;
-  min-height: 100px;
-
-  background-color: antiquewhite;
-}
